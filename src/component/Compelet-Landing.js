@@ -12,6 +12,7 @@ function CompeletLanding
               <Link
                 to={"/web-Design"}
                 className="text-decoration-none col-lg-4 col-12 mb-4 mb-lg-0"
+                onClick={() => window.scrollTo(0, 0)}
               >
                 <div className="custom-block bg-white ">
                   <div className="d-flex">
@@ -52,10 +53,7 @@ function CompeletLanding
                           to edit and adapt for your CMS requirements.
                         </p>
 
-                        <a
-                          href="/#"
-                          className="btn custom-btn mt-2 mt-lg-3"
-                        >
+                        <a href="/#" className="btn custom-btn mt-2 mt-lg-3">
                           Learn More
                         </a>
                       </div>

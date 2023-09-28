@@ -13,18 +13,21 @@ function LandingWeb() {
                 <div className="list">
                   <ul className="ul-list">
                     <li>
-                  <Link className="text-decoration-none text-black" to="/">Homepage</Link>
+                      <Link
+                        className="text-decoration-none text-black"
+                        to="/"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
+                        Homepage
+                      </Link>
                     </li>
                     <li className="active">Web Design</li>
                   </ul>
                   <h2 className="text-white">Introduction to Web Design 101</h2>
                   <div className="d-flex align-items-center mt-5">
-                    <a
-                      href="/#"
-                      className="btn custom-btn mt-2 mt-lg-3"
-                    >
+                    <Link to="/" className="btn custom-btn mt-2 mt-lg-3">
                       Learn More
-                    </a>
+                    </Link>
                     <i className="fa-regular fa-bookmark bi-bookmark"></i>
                   </div>
                 </div>

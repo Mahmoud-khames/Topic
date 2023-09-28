@@ -89,6 +89,7 @@ function BrowseTopics() {
                       <Link
                         className="text-decoration-none text-black col-lg-4 col-md-6 col-12 mb-4 mb-lg-0"
                         to={"/web-Design"}
+                        onClick={() => window.scrollTo(0, 0)}
                       >
                         <div className="tab-block  bg-white shadow-lg">
                           <div className="d-flex">
@@ -110,7 +111,11 @@ function BrowseTopics() {
                           />
                         </div>
                       </Link>
-                      <Link to={"/web-Design"} className="text-decoration-none text-black col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                      <Link
+                        to={"/web-Design"}
+                        className="text-decoration-none text-black col-lg-4 col-md-6 col-12 mb-4 mb-lg-0"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
                         <div className="tab-block  bg-white shadow-lg">
                           <div className="d-flex">
                             <div>
@@ -131,7 +136,11 @@ function BrowseTopics() {
                           />
                         </div>
                       </Link>
-                      <Link to={"/web-Design"} className="text-decoration-none text-black col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                      <Link
+                        to={"/web-Design"}
+                        className="text-decoration-none text-black col-lg-4 col-md-6 col-12 mb-4 mb-lg-0"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
                         <div className="tab-block  bg-white shadow-lg">
                           <div className="d-flex">
                             <div>
@@ -158,7 +167,11 @@ function BrowseTopics() {
                   </div>
                   <div className="tab-content" category="marketing">
                     <div className="row">
-                      <Link to={"/web-Design"} className="text-decoration-none text-black col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                      <Link
+                        to={"/web-Design"}
+                        className="text-decoration-none text-black col-lg-4 col-md-6 col-12 mb-4 mb-lg-0"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
                         <div className="tab-block  bg-white shadow-lg">
                           <div className="d-flex">
                             <div>
@@ -184,7 +197,11 @@ function BrowseTopics() {
                           />
                         </div>
                       </Link>
-                      <Link to={"/web-Design"} className="text-decoration-none text-black col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                      <Link
+                        to={"/web-Design"}
+                        className="text-decoration-none text-black col-lg-4 col-md-6 col-12 mb-4 mb-lg-0"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
                         <div className="tab-block  bg-white shadow-lg">
                           <div className="d-flex">
                             <div>
@@ -210,7 +227,11 @@ function BrowseTopics() {
                           />
                         </div>
                       </Link>
-                      <Link to={"/web-Design"} className="text-decoration-none text-black col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                      <Link
+                        to={"/web-Design"}
+                        className="text-decoration-none text-black col-lg-4 col-md-6 col-12 mb-4 mb-lg-0"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
                         <div className="tab-block  bg-white shadow-lg">
                           <div className="d-flex">
                             <div>
@@ -240,7 +261,11 @@ function BrowseTopics() {
                   </div>
                   <div className="tab-content" category="Finance">
                     <div className="row">
-                      <Link to={"/web-Design"} className="text-decoration-none text-black col-lg-6  col-12 mb-4 mb-lg-0">
+                      <Link
+                        to={"/web-Design"}
+                        className="text-decoration-none text-black col-lg-6  col-12 mb-4 mb-lg-0"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
                         <div className="tab-block  bg-white shadow-lg">
                           <div className="d-flex">
                             <div>
@@ -261,7 +286,11 @@ function BrowseTopics() {
                           />
                         </div>
                       </Link>
-                      <Link to={"/web-Design"} className="text-decoration-none text-black col-lg-6 col-12">
+                      <Link
+                        to={"/web-Design"}
+                        className="text-decoration-none text-black col-lg-6 col-12"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
                         <div className="tab-block  tab-block-overlay">
                           <div className="d-flex flex-column h-100">
                             <div className="tab-block-overlay-text d-flex">
@@ -336,7 +365,11 @@ function BrowseTopics() {
                   </div>
                   <div className="tab-content" category="Music">
                     <div className="row">
-                      <Link to={"/web-Design"} className="text-decoration-none text-black col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                      <Link
+                        to={"/web-Design"}
+                        className="text-decoration-none text-black col-lg-4 col-md-6 col-12 mb-4 mb-lg-0"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
                         <div className="tab-block  bg-white shadow-lg">
                           <div className="d-flex">
                             <div>
@@ -362,7 +395,11 @@ function BrowseTopics() {
                           />
                         </div>
                       </Link>
-                      <Link to={"/web-Design"} className="text-decoration-none text-black col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                      <Link
+                        to={"/web-Design"}
+                        className="text-decoration-none text-black col-lg-4 col-md-6 col-12 mb-4 mb-lg-0"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
                         <div className="tab-block  bg-white shadow-lg">
                           <div className="d-flex">
                             <div>
@@ -388,7 +425,11 @@ function BrowseTopics() {
                           />
                         </div>
                       </Link>
-                      <Link to={"/web-Design"} className="text-decoration-none text-black col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                      <Link
+                        to={"/web-Design"}
+                        className="text-decoration-none text-black col-lg-4 col-md-6 col-12 mb-4 mb-lg-0"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
                         <div className="tab-block  bg-white shadow-lg">
                           <div className="d-flex">
                             <div>
@@ -418,7 +459,11 @@ function BrowseTopics() {
                   </div>
                   <div className="tab-content" category="Education">
                     <div className="row">
-                      <Link to={"/web-Design"} className="text-decoration-none text-black col-lg-6  col-12 mb-4 mb-lg-0">
+                      <Link
+                        to={"/web-Design"}
+                        className="text-decoration-none text-black col-lg-6  col-12 mb-4 mb-lg-0"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
                         <div className="tab-block  bg-white shadow-lg">
                           <div className="d-flex">
                             <div>
@@ -444,7 +489,11 @@ function BrowseTopics() {
                           />
                         </div>
                       </Link>
-                      <Link to={"/web-Design"} className="text-decoration-none text-black col-lg-6 col-12 mb-4 mb-lg-0">
+                      <Link
+                        to={"/web-Design"}
+                        className="text-decoration-none text-black col-lg-6 col-12 mb-4 mb-lg-0"
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
                         <div className="tab-block  bg-white shadow-lg">
                           <div className="d-flex">
                             <div>

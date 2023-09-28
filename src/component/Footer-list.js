@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../style/style.css"
 
 function FooterList() {
@@ -7,10 +8,14 @@ function FooterList() {
           <div className="container">
             <div className="row">
               <div className="col-lg-3 col-12 mb-4 pb-2">
-                <a className="navbar-brand mb-2" href="index.html">
+                <Link
+                  className="navbar-brand mb-2"
+                  to="/"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
                   <i className="fa-solid fa-biohazard"></i>
                   <span>Topic</span>
-                </a>
+                </Link>
               </div>
 
               <div className="col-lg-3 col-md-4 col-6">
@@ -53,7 +58,10 @@ function FooterList() {
                 </p>
 
                 <p className="namber text-white d-flex">
-                  <a href="mailto:info@company.com" className="site-footer-link">
+                  <a
+                    href="mailto:info@company.com"
+                    className="site-footer-link"
+                  >
                     info@company.com
                   </a>
                 </p>

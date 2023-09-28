@@ -17,7 +17,7 @@ function TopicPage() {
                 <h2 className="mb-4">Popular Topics</h2>
               </div>
               <div className="col-lg-8 col-12">
-                <Link
+                <div
                   to={"/web-Design"}
                   className="text-decoration-none text-black shadow-lg bg-white"
                 >
@@ -43,8 +43,8 @@ function TopicPage() {
                       <span className="badge bg-design  ms-auto">14</span>
                     </div>
                   </div>
-                </Link>
-                <Link
+                </div>
+                <div
                   to={"/web-Design"}
                   className="text-decoration-none text-black shadow-lg bg-white"
                 >
@@ -76,8 +76,8 @@ function TopicPage() {
                       </span>
                     </div>
                   </div>
-                </Link>
-                <Link
+                </div>
+                <div
                   to={"/web-Design"}
                   className="text-decoration-none text-black shadow-lg bg-white"
                 >
@@ -108,7 +108,7 @@ function TopicPage() {
                       </span>
                     </div>
                   </div>
-                </Link>
+                </div>
               </div>
               <div class="col-lg-12 col-12">
                 <nav aria-label="Page navigation example">
@@ -159,7 +159,7 @@ function TopicPage() {
               <div className="col-lg-12 col-12 text-start mb-4 ">
                 <h2 className="mb-4">Trending Topics</h2>
               </div>
-              <Link
+              <div
                 to={"/web-Design"}
                 className="text-decoration-none text-black col-lg-6  col-12 mb-4 mb-lg-0"
               >
@@ -182,8 +182,8 @@ function TopicPage() {
                     alt=""
                   />
                 </div>
-              </Link>
-              <Link
+              </div>
+              <div
                 to={"/web-Design"}
                 className="text-decoration-none text-black col-lg-6 col-12"
               >
@@ -244,7 +244,7 @@ function TopicPage() {
                     <div className="section-overlay"></div>
                   </div>
                 </div>
-              </Link>
+              </div>
             </div>
           </div>
         </div>

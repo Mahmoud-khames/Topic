@@ -36,6 +36,7 @@ function App() {
             </>
           }
         />
+        
         <Route
           path="/web-Design"
           element={
@@ -66,7 +67,7 @@ function App() {
               <Navbar />
               <ConcatList />
               <ConcatPage />
-              <FooterList/>
+              <FooterList />
             </>
           }
         />

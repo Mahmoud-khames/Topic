@@ -234,7 +234,7 @@ background: #80d0c7;
 @media screen and (max-width: 767px) {
 .compeletLanding .custom-block .custom-btn {       
         font-size: 15px;
-        padding: 5px 10px;
+        padding: 2px 4px;
     }
 }
 .compeletLanding .custom-block .custom-btn:hover{
@@ -247,6 +247,7 @@ background: #80d0c7;
             left: 0;
             z-index: 2;
             padding: 20px 35px;
+                margin: -15px 0;
 }
 
 .section-overlay{
@@ -457,6 +458,7 @@ margin:10px 30px;
     left: 0;
     z-index: 2;
     padding: 20px 35px;
+    margin:  -15px 0;
 }
 
 .browse-topics .section-overlay {
@@ -1145,6 +1147,7 @@ transform: translateY(-5%);
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: #f0f8ff;
+    overflow: hidden;
 }
 .threding{
         padding-top: 100px;
@@ -1381,6 +1384,7 @@ display: block;
     left: 0;
     z-index: 2;
     padding: 20px 35px;
+    margin: -15px 0;
 }
 
 .threding .section-overlay {

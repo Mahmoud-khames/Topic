@@ -45,7 +45,12 @@ useEffect(() => {
             >
               <ul className="navbar-nav navbar-nav-ul me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <Link className="nav-link " aria-current="page" to={"/"}>
+                  <Link
+                    className="nav-link "
+                    aria-current="page"
+                    to={"/"}
+                    onClick={() => window.scrollTo(0, 0)}
+                  >
                     Home
                   </Link>
                 </li>
@@ -81,13 +86,21 @@ useEffect(() => {
                   </a>
                   <ul className="dropdown-menu dif">
                     <li>
-                      <Link className="dropdown-item" to={"/Topics-Listing"}>
+                      <Link
+                        className="dropdown-item"
+                        to={"/Topics-Listing"}
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
                         TOPICS LISTING
                       </Link>
                     </li>
 
                     <li>
-                      <Link className="dropdown-item" to={"/contact-form"}>
+                      <Link
+                        className="dropdown-item"
+                        to={"/contact-form"}
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
                         CONTACT FORM
                       </Link>
                     </li>
