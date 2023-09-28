@@ -4,10 +4,13 @@ import imgRemote from "../component/images/topics/undraw_Remote_design_team_re_u
 import undrawGroup from "../component/images/topics/undraw_Group_video_re_btu7.png";
 import Podcast from "../component/images/topics/undraw_Podcast_audience_re_4i5q.png";
 import undrawFinance from "../component/images/topics/undraw_Finance_re_gnv2.png";
+import { useLocation } from 'react-router-dom';
 
 
 
 function TopicPage() {
+  let location = useLocation()
+  console.log(location);
     return (
       <>
         <div className="topicpage">

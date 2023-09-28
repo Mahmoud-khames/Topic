@@ -1,10 +1,20 @@
 import { useEffect } from "react";
 import "../style/style.css"
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
+import { useLocation } from "react-router-dom";
 
 
 
 function Navbar() {
+  let location = useLocation();
+  let returHome = (title) => {
+    if (
+      location.pathname === "/Topics-Listing" || location.pathname === "/contact-form"
+    ) {
+      location.pathname = `/${title}`;
+    }
+  }
     window.addEventListener("scroll", function () {
         let mainNav = document.querySelector(".main-nav");
         mainNav.classList.toggle("scrolled", window.scrollY > 0);
@@ -24,10 +34,10 @@ useEffect(() => {
       <>
         <nav className="navbar navbar-expand-lg  main-nav">
           <div className="container-fluid ">
-            <a className="logo" href="/#">
+            <Link className="logo" href="/">
               <i className="fa-solid fa-biohazard"></i>
               Topic
-            </a>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -55,24 +65,40 @@ useEffect(() => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#browse-topics">
+                  <Link
+                    className="nav-link"
+                    to="#browse-topics"
+                    onClick={returHome("#browse-topics")}
+                  >
                     BROWSE TOPICS
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#howitwork">
+                  <Link
+                    className="nav-link"
+                    to="#howitwork"
+                    onClick={returHome("#howitwork")}
+                  >
                     HOW IT WORKS
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#faqs">
+                  <Link
+                    className="nav-link"
+                    to="#faqs"
+                    onClick={returHome("#faqs")}
+                  >
                     FAQS
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#contact">
+                  <Link
+                    className="nav-link"
+                    to="#contact"
+                    onClick={returHome("#contact")}
+                  >
                     CONTACT
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item dropdown">
                   <a
